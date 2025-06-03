@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: practica2capas
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/parcial2
+    username: postgres
+    password: 12345
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
